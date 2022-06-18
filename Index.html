@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Kit Store - Home</title>
+</head>
+<body>
+    
+    <div class="header">
+        <h2>The Kit Store</h2>
+      </div>
+
+      <div class="topnav">
+        <a href="Index.html">Home</a>
+        <a href="whatsnew.html">What's New</a>
+        <a href="About.html">About Us</a>
+      </div>
+
+    <main>
+    <div class="giftItem">
+    <img src="images/gift1.jpg" alt="" class="giftImg">
+    <p>AC Milan Home Kit</p>
+    <p><span id = "price">14</span>$</p>
+    <input type="button" value="Add" onClick = "giftAdd(14)" class="addButton">
+    </div>
+    <div class="giftItem">
+    <img src="images/gift2.jpg" alt="" class="giftImg">
+    <p>Arsenal Home Kit</p>
+    <p id = "price">18$</p>
+    <input type="button" value="Add" onClick = "giftAdd(18)" class="addButton">
+    </div>
+    <div class="giftItem">
+    <img src="images/gift3.jpg" alt="" class="giftImg">
+    <p>Liverpool Third Kit</p>
+    <p id = "price">55$</p>
+    <input type="button" value="Add" onClick = "giftAdd(55)" class="addButton">
+    </div>
+    <div class="giftItem">
+    <img src="images/gift4.jpg" alt="" class="giftImg">
+    <p>Man City Away Kit</p>
+    <p id = "price">25$</p>
+    <input type="button" value="Add" onClick = "giftAdd(25)" class="addButton">
+    </div>
+    <div id = "recipt"></div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>

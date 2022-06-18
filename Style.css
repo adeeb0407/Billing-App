@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    color: darkslateblue;
+    text-shadow: 2px 2px #757474;
+}
+
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+
+  style
+  {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  /* Style for header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Style for topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* image gallery */
+  div.gallery {
+    margin: 15px;
+    border: 2px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 2px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+
+.giftImg{
+    height : 200px;
+
+}
+.giftItem{
+    float:left;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    padding: 10px;
+}
+.addButton{
+    padding : 5px 15px 5px 15px;
+    font-size : 1rem;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: 2px dashed black;
+    cursor: pointer;
+}
